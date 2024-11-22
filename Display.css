@@ -1,0 +1,31 @@
+h1{
+    display: none;
+}
+.p-inline span{
+    background-color: aqua;
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    display: block;
+    width: 40px;
+}
+.block{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+    padding-inline: 4rem;
+}
+.box{ 
+    width: 100px;
+    height: 100px;
+    background-color: ;
+    flex-direction: column;
+}
