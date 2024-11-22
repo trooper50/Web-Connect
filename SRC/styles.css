@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply rounded-full text-white bg-blue-500 py-2 px-5 uppercase font-semibold text-sm cursor-pointer;
+}

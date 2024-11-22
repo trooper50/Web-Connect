@@ -1,0 +1,52 @@
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 400vh;
+}
+.parent{
+    background-color: blue;
+    color: white;
+    height: 90px;
+    /*position: static;*/
+    position: sticky;
+}
+
+.child{
+    background-color: red;
+    height: 90px;
+    color: antiquewhite;
+    height: 200px;
+}
+.child-one{
+background-color: green;
+height: 90px;
+/*position: relative;
+left: -4rem;
+right: 4rem;*/
+/*position: absolute;
+height: 200px;
+width: 200px;*/
+}
+
+.child-two{
+    background-color: rgb(226, 31, 31);
+    color: beige;
+    height: 90px;
+}
+.child-three{
+    background-color: greenyellow;
+    height: 90px;
+}
+section{
+    height: 100px;
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    width: 100%;
+    z-index: 99;
+}
